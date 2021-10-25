@@ -13,7 +13,7 @@ spring:
   jpa:
     database-platform: org.hibernate.dialect.Oracle12cDialect
     hibernate:
-      ddl-auto: create
+      ddl-auto: create-drop
     generate-ddl: true
     properties:
       hibernate:
